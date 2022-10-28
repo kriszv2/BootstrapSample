@@ -10,7 +10,9 @@ hr{
 .container .row div{
     height: 500px;
 }
-.ls{
-    height:200px;
-    background-color: rgb(217, 255, 127);
+.carousel-caption{
+    text-align: left;
+}
+.container-fluid{
+    width:90%;
 }
