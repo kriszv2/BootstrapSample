@@ -13,6 +13,98 @@ hr{
 .carousel-caption{
     text-align: left;
 }
-.container-fluid{
-    width:90%;
+
+.nav .nav-link{
+ text-decoration: none;
+ color: rgb(107, 107, 107);
+ font-size: 0.85rem;
+ padding: 0.25rem 0  0 0.75rem;
+}
+.nav .nav-link:hover{
+    font-weight: bold;
+}
+.nav-log span a{
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.nav-log{
+    text-align: end;
+    justify-content: end;
+    
+    
+}
+.sub{
+    margin-top:15px;
+}
+.sub a{
+    
+    text-decoration: none;
+}
+.navbar-brand{
+    font-size: 2.75em;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.shortened{
+    display:none;
+}
+@media only screen and (max-width: 1300px) {
+    .navbar-brand{
+        font-size:1.75em;
+    }
+}
+@media only screen and (max-width: 767px) {
+    
+    .row{
+        display: inline-flex;
+    }
+    
+    .navbar-brand{
+       display:none;
+        
+    }
+    .container-fluid{
+        width:100%;
+    }
+    .shortened{
+        display:block;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 2.75em;
+        margin-right:auto;
+        margin-left:auto;
+
+    }
+    .navbar{
+        padding:0;
+        
+    }
+
+    .about{
+        display: none;
+    }
+    .nav-log{
+        display:none;
+    }
+
+}
+.about{
+    background-color: rgb(177, 177, 177);
+    
+}
+
+.about a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 0.85rem;
+}
+.about a:hover{
+    font-weight: 600;
+}
+.col-dis{
+    display:none;
 }
