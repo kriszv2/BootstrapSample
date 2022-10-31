@@ -22,6 +22,9 @@ hr{
 }
 .nav .nav-link:hover{
     font-weight: bold;
+    padding: 0.25rem 0  0 0.75rem;
+    font-size: 0.85rem;
+    text-decoration: none;
 }
 .nav-log span a{
     text-decoration: none;
@@ -104,7 +107,32 @@ hr{
 }
 .about a:hover{
     font-weight: 600;
+    
 }
 .col-dis{
     display:none;
+}
+.el-3 div{
+    height:400px;
+    width:400px;
+    
+}
+.card-body ul{
+    padding-left: 1rem;
+}
+.card-title{
+    font-weight: 700;
+    color:rgb(46, 46, 46);
+    font-size: 1.75rem;
+}
+.card-w{
+    width:10rem;
+}
+.half{
+    height: 200px;
+    background-color: rgb(82, 36, 36);
+}
+.full{
+    height: 400px;
+    background-color: #123124;
 }
